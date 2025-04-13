@@ -1,4 +1,4 @@
-# 🌸 RadiantGlow Product Recommender
+#  RadiantGlow Product Recommender
 
 This is a smart skincare product recommender built with **HTML (frontend)**, hosted on **AWS S3**, and powered by a **Flask backend on EC2**.
 
