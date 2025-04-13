@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RadiantGlow Recommender</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 50px;
+            background-color: #fff0f5;
+        }
+        h1 {
+            color: #d63384;
+        }
+        select, button {
+            padding: 10px;
+            font-size: 16px;
+            margin: 10px;
+        }
+        form {
+            background-color: #fff;
+            display: inline-block;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>🌸 RadiantGlow Recommender 🌸</h1>
+    <p>Select a product category and get your custom pick!</p>
+
+    <form action="http://34.239.128.229:5000" method="POST">
+        <select name="category">
+            <option value="skincare">Skincare</option>
+            <option value="haircare">Haircare</option>
+            <option value="makeup">Makeup</option>
+            <option value="wellness">Wellness</option>
+        </select><br>
+        <button type="submit">💖 Get Recommendation</button>
+    </form>
+</body>
+</html>
