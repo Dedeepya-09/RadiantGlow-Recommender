@@ -1,3 +1,6 @@
+🌟 A cloud-powered skincare recommendation app using AWS S3, EC2, HTML & Flask 🌟
+
+
 #  RadiantGlow Product Recommender
 
 This is a smart skincare product recommender built with **HTML (frontend)**, hosted on **AWS S3**, and powered by a **Flask backend on EC2**.
@@ -35,3 +38,12 @@ When users choose a product category (Skincare, Haircare, Makeup, Wellness), the
 2. Upload and run `app.py`:
    ```bash
    python3 app.py
+
+
+## 📁 Project Structure
+
+radiantglow-recommender/ │ ├── index.html # Frontend HTML (hosted on S3 or GitHub Pages) ├── app.py # Backend Flask API (runs on EC2) ├── README.md # Project overview and documentation
+## 🖼️ Preview
+
+![RadiantGlow Screenshot](screenshot.png)
+
